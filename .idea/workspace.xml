@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ce79e40-d75b-4062-96ad-dfbc1964f5d7" name="Changes" comment="...">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+    <list default="true" id="5ce79e40-d75b-4062-96ad-dfbc1964f5d7" name="Changes" comment="сделано подключение к базе данных postgres с помощью docker-compose.yaml">
+      <change afterPath="$PROJECT_DIR$/fastapi-application/core/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastapi-application/core/models/db_helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fastapi_example_base_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fastapi_example_base_app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-application/core/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi-application/core/config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +19,13 @@
   <component name="ChangesViewManager">
     <option name="groupingKeys">
       <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
     </option>
   </component>
   <component name="Git.Settings">
@@ -118,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730571932476</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="сделано подключение к базе данных postgres с помощью docker-compose.yaml">
+      <option name="closed" value="true" />
+      <created>1730572892541</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730572892541</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -126,6 +142,7 @@
     <MESSAGE value="first commit: added .gitignore poetry.lock pyproject.toml" />
     <MESSAGE value="added directories: fastapi-application api core, files: main.py config.py" />
     <MESSAGE value="..." />
-    <option name="LAST_COMMIT_MESSAGE" value="..." />
+    <MESSAGE value="сделано подключение к базе данных postgres с помощью docker-compose.yaml" />
+    <option name="LAST_COMMIT_MESSAGE" value="сделано подключение к базе данных postgres с помощью docker-compose.yaml" />
   </component>
 </project>
