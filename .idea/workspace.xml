@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ce79e40-d75b-4062-96ad-dfbc1964f5d7" name="Changes" comment="сделано подключение к базе данных postgres с помощью docker-compose.yaml">
-      <change afterPath="$PROJECT_DIR$/fastapi-application/core/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastapi-application/core/models/db_helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fastapi_example_base_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fastapi_example_base_app.iml" afterDir="false" />
+    <list default="true" id="5ce79e40-d75b-4062-96ad-dfbc1964f5d7" name="Changes" comment="create database config and database_helper">
+      <change afterPath="$PROJECT_DIR$/fastapi-application/.env.template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fastapi-application/core/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi-application/core/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-application/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi-application/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +48,16 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/sejeenn/PycharmProjects/fastapi_example_base_app"
+    "last_opened_file_path": "/home/sejeenn/PycharmProjects/fastapi_example_base_app/fastapi-application"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fastapi-application" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fastapi-application" />
     </key>
   </component>
   <component name="RunManager">
@@ -134,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730572892541</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="create database config and database_helper">
+      <option name="closed" value="true" />
+      <created>1730574991545</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730574991545</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -143,6 +155,7 @@
     <MESSAGE value="added directories: fastapi-application api core, files: main.py config.py" />
     <MESSAGE value="..." />
     <MESSAGE value="сделано подключение к базе данных postgres с помощью docker-compose.yaml" />
-    <option name="LAST_COMMIT_MESSAGE" value="сделано подключение к базе данных postgres с помощью docker-compose.yaml" />
+    <MESSAGE value="create database config and database_helper" />
+    <option name="LAST_COMMIT_MESSAGE" value="create database config and database_helper" />
   </component>
 </project>
