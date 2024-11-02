@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ce79e40-d75b-4062-96ad-dfbc1964f5d7" name="Changes" comment="" />
+    <list default="true" id="5ce79e40-d75b-4062-96ad-dfbc1964f5d7" name="Changes" comment="added directories: fastapi-application api core, files: main.py config.py" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -14,17 +19,26 @@
   "associatedIndex": 7
 }]]></component>
   <component name="ProjectId" id="2oIyD1mjiFRFwe8FIaaEIN2dJrY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/sejeenn/PycharmProjects/fastapi_example_base_app"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,6 +48,29 @@
       <option name="presentableId" value="Default" />
       <updated>1730571260610</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit: added .gitignore poetry.lock pyproject.toml">
+      <option name="closed" value="true" />
+      <created>1730571511577</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730571511577</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added directories: fastapi-application api core, files: main.py config.py">
+      <option name="closed" value="true" />
+      <created>1730571678033</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730571678033</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first commit: added .gitignore poetry.lock pyproject.toml" />
+    <MESSAGE value="added directories: fastapi-application api core, files: main.py config.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="added directories: fastapi-application api core, files: main.py config.py" />
   </component>
 </project>
